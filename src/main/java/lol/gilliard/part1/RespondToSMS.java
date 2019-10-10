@@ -1,18 +1,24 @@
 package lol.gilliard.part1;
 
-import static spark.Spark.get;
+import lol.gilliard.SparkLogger;
+
+import static spark.Spark.post;
 
 public class RespondToSMS {
 
-    // Contest Phone number is:
+    public static final String PHONE_NUMBER = "+44 7723 457662";
 
-    private static String message = "Thanks for entering the raffle";
+    private static String message = "Hello from Twilio";
 
     public static void main(String[] args) {
-        get("/", (req, res) -> {
-            System.out.println(req.queryParamOrDefault("From", "none"));
-            res.header("Content-Type", "application/xml");
-            return "<Response><Message>" + message + "</Message></Response>";
-        });
+        SparkLogger.init();
+
+        post("/", (req, res) ->
+            message
+        );
+
     }
 }
+
+
+// live templates: message.responsemessage, voicepost, classicmp3

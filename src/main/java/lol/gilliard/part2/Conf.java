@@ -14,7 +14,7 @@ import java.util.HashSet;
 
 import static spark.Spark.post;
 
-public class ConfEveryone {
+public class Conf {
 
     public static void main(String[] args) {
 
