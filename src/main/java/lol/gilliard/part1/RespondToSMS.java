@@ -6,7 +6,7 @@ import static spark.Spark.post;
 
 public class RespondToSMS {
 
-    public static final String PHONE_NUMBER = "+44 7723 457662";
+    public static final String PHONE_NUMBER = "";
 
     private static String message = "Hello from Twilio";
 
