@@ -12,10 +12,12 @@ Java code for a 5 minute demo of Twilio using Java. There is a class for respond
     - `RespondToSMS`
     - the `part2` class you want to use
     - `thankyou.png`
+  - Set font sizes in editor windows
   - Customise the `message` with the name of the event
   - Open the Twilio console in the browser, head to the "buy a number" page
+    - Pre-purchase number if time is gonna be really tight
   - Start Two terminals:
-    - `ngrok -subdomain gilliard 4567`
+    - `ngrok http -subdomain gilliard 4567`
     - another ready for `http` stuff
 
 ## Part 1
