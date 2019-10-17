@@ -4,7 +4,7 @@ Java code for a 5 minute demo of Twilio using Java. There is a class for respond
 
 ## Prep
 
-![Remove before flight](https://www.aircraftspruce.eu/images/products_max_800x600/13-02818.jpg)
+![Remove before flight](https://images-na.ssl-images-amazon.com/images/I/61m7jodcE1L._SL1500_.jpg)
 
   - Open in IntelliJ:
     - `intro.png`
